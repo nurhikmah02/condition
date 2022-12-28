@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS condition</title>
+</head>
+
+<body>
+    <p id = "demo"></p>
+    <script>
+        const hour = new Date().getHours;
+let greeting : 
+if (hour < 1) {greeting = "Good night"};
+else (hour < 5){greeting = "Hore Saya Bisa"}
+
+document.getElementById ("demo").innerHTML = greeting
+    </script>
+
+</body>
+</html>
